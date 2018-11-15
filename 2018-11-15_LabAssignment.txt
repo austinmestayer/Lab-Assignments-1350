@@ -1,0 +1,83 @@
+﻿CSC 1350 Sections 6 & 7
+11/15/2018 Laboratory Assignment
+Due: end of lab
+
+Enter answers to the following questinos directly in this file. When you have finished, save it 
+to your hard drive, rename it to <MyLSUID>.txt, and upload it to the Assignment in Moodle.
+
+1.	(3 point) What is the content of the array below after each pass of an ascending Bubble Sort. Do not assume the
+	shortcut versino of the algorithm.
+
+	94 | 39 | 100 | 61 | 42 | 18 | 15 | 63
+	
+	Answer Below:
+	
+	Pass 1:
+	39 | 94 | 61 | 42 | 18 | 15 | 63 | 100
+	
+	Pass 2:
+	39 | 61 | 42 | 18 | 15 | 63 | 94 | 100
+	
+	Pass 3:
+	39 | 42 | 18 | 15 | 61 | 63 | 94 | 100
+	
+	Pass 4:
+	39 | 18 | 15 | 42 | 61 | 63 | 94 | 100
+	
+	Pass 5:
+	18 | 15 | 39 | 42 | 61 | 63 | 94 | 100
+	
+	Pass 6:
+	15 | 18 | 39 | 42 | 61 | 63 | 94 | 100
+	
+	Pass 7:
+	
+	
+2. (3 point) Show the Min, Max, and Mid indices for each pass of the binary search of the following array, searching for 42
+
+	 0    1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17
+	 1 | 12 | 15 | 18 | 22 | 25 | 27 | 31 | 35 | 39 | 42 | 47 | 52 | 53 | 61 | 63 | 94 | 100
+	
+	Answer Below:
+	
+	Pass 1:
+	Min: 0
+	Mid: 8
+	Max: 17
+	
+	Pass 2:
+	Min: 9
+	Mid: 13
+	Max: 17
+	
+	Pass 3:
+	Min: 9
+	Mid: 10
+	Max: 12
+	
+3. (4 point) Show the Min, Max, and Mid indices for each pass of the binary search of the following array, searching for 1
+
+	 0    1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17
+	 1 | 12 | 15 | 18 | 22 | 25 | 27 | 31 | 35 | 39 | 42 | 47 | 52 | 53 | 61 | 63 | 94 | 100
+	
+	Answer Below:
+	
+	Pass 1:
+	Min: 0
+	Mid: 8
+	Max: 17
+	
+	Pass 2:
+	Min: 0
+	Mid: 4
+	Max: 9
+	
+	Pass 3:
+	Min: 0
+	Mid: 1
+	Max: 3
+	
+	Pass 3:
+	Min: 0
+	Mid: 0
+	Max: 0
